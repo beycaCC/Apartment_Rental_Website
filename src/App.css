@@ -1,0 +1,423 @@
+/* ------------- Default Setting ------------- */
+*{margin:0; padding:0}
+
+
+/* ------------- NavBar ------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /*background: #4066FA;*/
+    padding: 25px 31px;
+    /*margin-bottom: 16px;*/
+    align-content: center;
+    /*outline: 0;*/
+    /*border-width: 0 0 2px;*/
+    /*border-color: white;*/
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.navbar-logo{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.App-logo{
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+    height: auto;
+    display: inline-block;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    column-gap: 20px;
+    margin: 0;
+    align-content: center;
+}
+
+.navbar-menu li a{
+    text-decoration: none;
+    color: white
+}
+
+
+
+/* ------------- Home Page ------------- */
+.Home-Page{
+    background-image: url("img_src/2.jpeg");
+    background-color: #cccccc;
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 400px;
+}
+
+.Home-text{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-37%, -10%);
+    color: white;
+    font-size: 100px;
+    /*font-family: Monospace;*/
+}
+
+/*!*.container {*!*/
+/*!*    position: relative;*!*/
+/*!*    text-align: center;*!*/
+/*!*    color: white;*!*/
+/*!*}*!*/
+
+/*.home-background{*/
+/*    width: 100%;*/
+/*}*/
+
+/*!* Centered text *!*/
+/*.centered-text {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    font-size: 100px;*/
+/*}*/
+
+/*.App{*/
+/*    background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.glenwoodnyc.com/wp-content/uploads/2022/05/2-JSP-LOBBY-01-02-1280.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 100% 100%;*/
+/*}*/
+
+
+
+/* ------------- Contact Page ------------- */
+.Contact-Page{
+    background-image: url("./Question-Mark-small.png");
+    background-color: #cccccc;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-37%, -10%);
+    color: #fcd454;
+    font-size: 100px;
+    font-family: Monospace;
+}
+
+/*.search-container{*/
+/*    width: 280px;*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*}*/
+
+.search-inner{
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    height: 2.5rem;
+    padding: 0 15px;
+    bos-shadow: 0px 0px 8px #ddd;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+#search-icon{
+    color: royalblue;
+    width: 32px;
+    height: auto;
+}
+
+.search-container input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.75rem;
+    width: 100%;
+    margin-left: 7px;
+}
+
+.search-container input:focus{
+    outline: none;
+}
+
+.search-button{
+    height: 60px;
+    width: 70px;
+    /*border: 3px solid #555;*/
+    border-radius: 70%;
+}
+
+.dropdown-menu{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.dropdown-menu:empty {
+    border: none;
+}
+
+.dropdown-row{
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/* ------------- Home Body ------------- */
+/*body{*/
+/*    overflow: auto;*/
+/*    !*padding-bottom: 100px;*!*/
+/*    height: 100%;*/
+/*}*/
+
+
+/* ------------- Responsive Footer ------------- */
+.responsive-footer{
+    position: relative;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #757575;
+}
+
+a{
+    color: #757575;
+}
+
+.copyright-container{
+    background-color: #d0cccc;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -60px;
+    height: 40px;
+}
+
+.copyright {
+    color: #5e5d5d;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+
+/* ------------- Apartments Page ------------- */
+.Apartments-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: steelblue;
+}
+
+
+
+
+/* ------------- Register Pages (Login && SignUp) ------------- */
+.login-page, .register-page{
+    display: flex;
+    /*flex-direction: column;*/
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(79deg, #fcfccf, #fcd7fc 48%, #d1eaff);
+}
+
+.register-container {
+    /*margin-top:100px;*/
+    padding: 5rem;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: solid slategrey 2px;*/
+    text-align: left;
+    color: #5e5d5d;
+}
+
+.login-form label, .register-form label{
+    padding: 0.25rem;
+}
+
+.login-form p, .register-form p{
+    margin-bottom: 1px;
+}
+
+.login-form input, .register-form input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-form button, .register-form button{
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ------------- User Dashboard Page ------------- */
+/* User Dashboard*/
+.user-dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: grid; /* Use CSS grid */
+    grid-template-columns: 20% 80%;
+    /*background-color: #5e5d5d;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user-logo{
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 60px;
+    height: auto;
+    display: inline-block;
+}
+
+/* Dashboard rest area */
+.dashboard-rest-area {
+    padding: 4rem;
+    background-image: linear-gradient(#d1eaff, white);
+}
+
+.dashboard-rest-area .title {
+    padding: 1rem 0;
+    font-size: x-large;
+}
+
+.dashboard-rest-area .grid-container {
+    padding: 2rem;
+    display: grid; /* Use CSS grid */
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container1 {
+    /*display: grid;*/
+    /*grid-template-columns: 30% 30% 30%;*/
+    border: 2px solid white;
+    border-radius: 15%;
+    width: 405px;
+    background-color: white;
+    color: steelblue;
+    /*justify-content: space-between;*/
+}
+
+.inner-box{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 30% 15% 30%;
+    /*border: 1px solid gray;*/
+    width: 400px;
+}
+
+.flex-column1 input, .flex-column2 input{
+    margin: 10px 0;
+    padding: 9px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: steelblue;
+    width: 100px;
+}
+
+/* Saves Page */
+.Saves-Area {
+    padding: 3rem;
+}
+
+/* Side Bar */
+.Sidebar{
+    height: 100%;
+    /*width: 15%;*/
+    background-color: #2F4050;
+}
+
+.user-area {
+    /*padding: 0.7rem;*/
+    /*margin-top: 30px;*/
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Sidebar hr{
+    margin: 6px;
+    border: 1px solid white;
+}
+
+.SidebarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.SidebarList .row{
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SidebarList .row:hover {
+    cursor: pointer;
+    background-color: #293846;
+}
+
+.SidebarList #active {
+    background-color: #293846;
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title {
+    flex: 70%;
+
+}

@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "the_question":  "Where can I find the Floor Plan?",
+      "Answer": "On the right top corner, click the Floor Plan button"
+    },
+    {
+      "id": 2,
+      "the_question":  "How can I rent the apartment?",
+      "Answer": "In current version, we didn't support rental feature. You have to call the clients for more details."
+    }
+]
